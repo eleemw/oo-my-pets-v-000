@@ -20,7 +20,7 @@ class Owner
   end
 
   def self.count  #counts how many owners have been created
-    @@all.count
+    self.all.count
   end
 
   def self.reset_all  #reset the owners that have been created
